@@ -4,10 +4,10 @@ mod service;
 use service::HelloWorld;
 
 #[derive(Default)]
-pub struct MyProgram;
+pub struct Program;
 
 #[gprogram]
-impl MyProgram {
+impl Program {
     pub fn new() -> Self {
         Self
     }
