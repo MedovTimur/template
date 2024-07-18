@@ -1,0 +1,11 @@
+[package]
+name = "{{project-name}}_app"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+gstd.workspace = true
+sails.workspace = true
+parity-scale-codec.workspace = true
+scale-info.workspace = true

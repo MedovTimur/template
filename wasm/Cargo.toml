@@ -1,0 +1,13 @@
+[package]
+name = "{{project-name}}_wasm"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+{{project-name}}-app = { path = "../app" }
+
+[build-dependencies]
+gwasm-builder.workspace = true
+sails-idl-gen.workspace = true
+{{project-name}}-app = { path = "../app" }
