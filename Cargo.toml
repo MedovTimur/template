@@ -14,4 +14,4 @@ license = "GPL-3.0"
 gstd = "1.4.2"
 gwasm-builder = { package = "gear-wasm-builder", version = "1.4.2" }
 sails-idl-gen = { git = "https://github.com/gear-tech/sails" }
-sails = { git = "https://github.com/gear-tech/sails" }
+sails-rs = { git = "https://github.com/gear-tech/sails" }

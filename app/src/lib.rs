@@ -1,7 +1,5 @@
 #![no_std]
-use sails::prelude::*;
-mod service;
-use service::HelloWorld;
+use sails_rs::prelude::*;
 
 #[derive(Default)]
 pub struct Program;
@@ -13,5 +11,15 @@ impl Program {
     }
     pub fn hello_world(&self) -> HelloWorld {
         HelloWorld::default()
+    }
+}
+
+#[derive(Default)]
+pub struct HelloWorld(());
+
+#[service]
+impl HelloWorld {
+    pub fn hello_world(&mut self) -> &'static str {
+        "Hello, world!"
     }
 }
