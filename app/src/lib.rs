@@ -4,7 +4,7 @@ use sails_rs::prelude::*;
 #[derive(Default)]
 pub struct Program;
 
-#[gprogram]
+#[program]
 impl Program {
     pub fn new() -> Self {
         Self
