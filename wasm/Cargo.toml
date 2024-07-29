@@ -8,6 +8,6 @@ license.workspace = true
 {{project-name}}_app = { path = "../app" }
 
 [build-dependencies]
-gwasm-builder.workspace = true
+gear-wasm-builder.workspace = true
 sails-idl-gen.workspace = true
 {{project-name}}_app = { path = "../app" }
